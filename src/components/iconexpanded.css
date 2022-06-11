@@ -1,0 +1,33 @@
+.iconexpanded {
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    transform: translateY(-100%);
+    background-color: #18191B;
+    height: 100vh;
+    color: white;
+}
+
+img{
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+}
+
+.brgnavbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.brgcontent {
+    margin-left: 80px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.brgcontent li{
+    list-style-type: none;
+}
+.lititems {
+    margin-left: -30px;
+}

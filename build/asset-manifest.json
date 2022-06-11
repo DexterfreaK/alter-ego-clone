@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/DexterfreaK/alter-ego-clone/static/css/main.ca2986a7.css",
+    "main.js": "/DexterfreaK/alter-ego-clone/static/js/main.5f0f57b3.js",
+    "index.html": "/DexterfreaK/alter-ego-clone/index.html",
+    "main.ca2986a7.css.map": "/DexterfreaK/alter-ego-clone/static/css/main.ca2986a7.css.map",
+    "main.5f0f57b3.js.map": "/DexterfreaK/alter-ego-clone/static/js/main.5f0f57b3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca2986a7.css",
+    "static/js/main.5f0f57b3.js"
+  ]
+}
