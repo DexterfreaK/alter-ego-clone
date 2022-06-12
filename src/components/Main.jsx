@@ -5,7 +5,7 @@ const Main = () => {
     <div className='main'>
 
       <iframe className="lazyload" src="https://player.vimeo.com/video/626392197?autoplay=1&amp;loop=1&amp;autopause=0&amp;controls=0&amp;muted=1&amp;background=1" webkitallowfullscreen="True" allowFullScreen="True" allow="autoplay; fullscreen; picture-in-picture" frameBorder="0"></iframe>
-      <button >
+      <button className='openbutton'>
         <div className="hamburger navbar">
           <span className='ls'></span>
           <span className='ls'></span>

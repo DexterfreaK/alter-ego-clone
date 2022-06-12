@@ -1,15 +1,23 @@
 import React from 'react';
 import './iconexpanded.css';
+import {FontAwesomeIcon}  from '@fortawesome/react-fontawesome';
+import {faInstagram,faFacebook,faPinterest} from "@fortawesome/free-brands-svg-icons";
 
 const Brg = () => {
 
     return (
         <div className='iconexpanded'>
             <div className="brgnavbar">
-                <div className="close">
-                    <div className="closebutton"></div>
-                    <p>CLOSE</p>
-                </div>
+                <button>
+                    <div className="close">
+                        <div className="closebutton">
+                            <span className='l cross1'></span>
+                            <span className='l cross2'></span>
+                        </div>
+                        <p>CLOSE</p>
+                    </div>
+                </button>
+               
                 <div className="logo">
                     <img src="https://www.alterego-group.com/img/logo_white.svg" alt="logo" />
                 </div>
@@ -90,7 +98,7 @@ const Brg = () => {
                     </div>
                 </div>
                 <div className="blog">
-                    <div className="blog"><h1>BLOG</h1></div>
+                    <div className="title"><h1>BLOG</h1></div>
                     <div className="lititems">
                         <ul>
                             BLOG                            
@@ -99,6 +107,26 @@ const Brg = () => {
                             <li><a href="http://">ART</a></li>
                             <li><a href="http://">REVIEWS</a></li>
                         </ul>
+                    </div>
+                </div>
+            </div>
+            <div className="footer">
+                <div className="left">
+                    <div style={{opacity:0.5}}>BOOK A MEETING</div>
+                    <div><a className='nothover'href="mailto:WELCOME@ALTEREGO-GROUP.COM">WELCOME@ALTEREGO-GROUP.COM</a></div>
+                    <div style={{ opacity: 0.5 }}>PARTNERSHIP</div>
+                    <div><a className='nothover' href="mailto:PARTNERS@ALTEREGO-GROUP.COM"></a>PARTNERS@ALTEREGO-GROUP.COM</div>
+
+                </div>
+                <div className="middle">
+                    <div className="suggest">We would love to share ideas, suggest options and answer your questions</div>
+                    <div className="invite"><a href="http://"> WE INVITE YOU TO DISCUSS YOUR PROJECT </a> <span className='l'></span></div>
+                </div>
+                <div className="right">
+                    <div className="sm">
+                       <FontAwesomeIcon icon={faFacebook}/>
+                        <FontAwesomeIcon icon={faInstagram} />
+                        <FontAwesomeIcon icon={faPinterest} />
                     </div>
                 </div>
             </div>
